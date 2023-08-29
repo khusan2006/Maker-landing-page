@@ -7,9 +7,13 @@
 }
 
 
-
+/* for tablets and below it */
 @media screen and (max-width: 992px) {
-    
+    /* general css */
+    html{
+        font-size: 55%;
+    }
+    /* Header section, need to be refactored */
     .header{
         position: relative;
     }
@@ -63,5 +67,86 @@
 
     .menu-btn.remove{
         display: none;
+    }
+
+    /* Hero section */
+
+  
+    .hero-title{
+        font-size: 3.8rem;
+    }
+    .hero-text{
+        font-size: 1.9rem;
+    }
+}
+
+
+/* media for tablets */
+@media screen and (max-width: 768px) {
+     /* general css */
+    html{
+        font-size: 50%;
+    }
+
+
+    /* Hero section */
+
+    .hero-title{
+        font-size: 3.6rem;
+    }
+    .hero-text{
+        font-size: 1.6rem;
+    }
+    
+}
+
+
+/* media for phone */
+@media screen and (max-width: 576px) {
+    html{
+        font-size: 45%;
+    }
+
+    /* Hero section */
+      .hero-container{
+        flex-direction: column-reverse;
+       
+    }
+
+    .hero-text__box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero-title{
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .hero-text{
+        text-align: center;
+        font-size: 2.1rem;
+        margin: 2rem auto 3rem auto;
+    }
+
+    .hero-btn{
+        align-self: center;
+        width: fit-content;
+    }
+
+}
+
+/* for smaller phones */
+@media screen and (max-width: 450px){
+     /* general css */
+    html{
+        font-size: 40%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+     /* general css */
+    html{
+        font-size: 35%;
     }
 }
