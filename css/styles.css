@@ -3,6 +3,61 @@
     --secondary-color: #32A3B2;
     --primary-color: #252626;
     --text-color: #707273;
+    --white-color: #ffffff;
+}
+/* Header section */
+
+.header {
+    padding-top: 4rem;
+    background-image: url('../img/Background.png');
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    object-fit: contain;
+}
+.navbar-links {
+    display: flex;
+    list-style: none;
+    gap: 4.5rem;
+    padding-left: 0;
+    margin: 0;
+}
+.navbar-link {
+    position: relative;
+    color: #969999;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+.navbar-link::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    background-color: var(--primary-bg-color);
+    height: 2px;
+    bottom: -10%;
+    left: 0;
+    transition: all ease-in 0.3s;
+}
+
+/* Nav link hover effect */
+
+.navbar-link:hover{
+    font-weight: 500;
+    color: var(--primary-bg-color);
+   
+}
+.navbar-link:hover::after{
+   width: 100%;
 }
 
 
