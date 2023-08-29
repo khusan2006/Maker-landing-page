@@ -18,7 +18,7 @@ html {
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: 'Work Sans', sans-serif;
     font-size: 1rem;
     line-height: 1.5;
     background-color: #Fff;
@@ -86,3 +86,22 @@ select:-webkit-autofill:focus {
 .main-content {
     flex-grow: 1;
   }
+
+
+/* Button */
+
+.btn {
+  padding: 1.5rem 3rem;
+  background-color: var(--primary-bg-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 0.6rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+
+.btn:hover, btn:active{
+  opacity: 0.8;
+}
