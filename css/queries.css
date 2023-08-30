@@ -13,27 +13,27 @@
     html{
         font-size: 55%;
     }
+   
     /* Header section, need to be refactored */
-    .header{
-        position: relative;
-    }
+
     .navbar-links{
-        display: flex!important;
+        padding-top: 12rem;
         opacity: 0;
         z-index: 9;
         position: absolute;
         left: 40%;
+  
         top: 0;
         background-color: var(--primary-bg-color);
         width: 60%;
         height: 100vh;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         transition: all ease 0.5s;
     }
     .navbar-links.active{
         opacity: 1;
+       
     }
    
     .navbar-link{
@@ -49,8 +49,7 @@
         display: block;
         position: absolute;
         right: 3%;
-        top: 70%;
-        transform: translateY(-50%);
+        top: 4rem;
     }
     .close-btn{
         display: none;
@@ -113,6 +112,12 @@
     .box-text{
         font-size: 1.4rem;
     }
+
+    /* Team section */
+    .team-section__text{
+        font-size: 1.5rem;
+        width: 85%;
+    }
     
 }
 
@@ -122,7 +127,10 @@
     html{
         font-size: 45%;
     }
-
+    .responsive-btn{
+        top: 5rem;
+        right: 3%;
+    }
     /* Hero section */
       .hero-container{
         flex-direction: column-reverse;
@@ -160,6 +168,23 @@
     }
     .box-text{
         font-size: 1.6rem;
+    }
+
+    /* Team section */
+    .team-section{
+        padding-top: 8rem;
+        flex-direction: column;
+    }
+
+    .team-section__left{
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .team-section__text{
+        text-align: center;
+    }
+    .team-section__btn{
+        align-self: center;
     }
 
 }

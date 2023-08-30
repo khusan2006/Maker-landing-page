@@ -51,6 +51,11 @@
     transition: all ease-in 0.3s;
 }
 
+.responsive-btn{
+    display: none;
+}
+
+
 /* Nav link hover effect */
 
 .navbar-link:hover{
@@ -62,9 +67,6 @@
    width: 100%;
 }
 
-.responsive-btn{
-    display: none;
-}
 
 
 /* Hero section */
@@ -122,6 +124,7 @@
     margin-bottom: 2.5rem;
 }
 .services-text{
+    text-align: center;
     width: 60rem;
     margin-bottom: 6rem;
 }
@@ -172,6 +175,53 @@
     border: 1px solid #A3E0E8;
     background-image: url('../img/hero-background.png');
     background-size: contain;
+}
+
+/* Team section */
+.team-section {
+    padding-top: 10rem;
+    display: flex;
+}
+
+.team-section__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.section-title {
+}
+.team-section__title {
+    margin-bottom: 1rem;
+}
+.team-section__job {
+    color: var(--text-color);
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    line-height: 160%; 
+}
+
+.team-section__text {
+    width: 90%;
+    margin-bottom: 3rem;
+
+}
+
+.team-section__btn {
+    align-self: flex-start;
+}
+.team-section__right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-section__right img{
+    width: 80%;
 }
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
