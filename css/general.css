@@ -1,3 +1,12 @@
+:root{
+  --primary-bg-color: #35AFBF;
+  --secondary-color: #32A3B2;
+  --primary-color: #252626;
+  --text-color: #707273;
+  --white-color: #ffffff;
+}
+
+
 /* GLOBAL */
 html {
     font-size: 62.5%;
@@ -104,4 +113,23 @@ select:-webkit-autofill:focus {
 
 .btn:hover, btn:active{
   opacity: 0.8;
+}
+
+/* Title */
+.section-title {
+  color: var(--primary-color);
+  font-size: 3.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Text */
+.section-text {
+  color: var(--text-color);
+  text-align: center;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
 }
