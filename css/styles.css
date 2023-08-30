@@ -110,7 +110,69 @@
     color: var(--secondary-color);
 }
 
+/* Services section */
+.services-section {
+    padding-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.services-title{
+    margin-bottom: 2.5rem;
+}
+.services-text{
+    width: 60rem;
+    margin-bottom: 6rem;
+}
+.services-section__boxes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 3rem;
+}
+.services-section__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #fff;
+    padding: 3rem 2rem 3.5rem 2rem;
+    border-radius: 1rem;
+    transition: all ease 0.3s;
+}
+.box-icon {
+    padding: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: var(--primary-bg-color);
+    color: var(--white-color);
+    border-radius: 50%;
+}
+.box-title {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: 1rem;
+}
+.box-text {
+    color: var(--text-color);
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 0;
+}
+
+
+/* box hover */
+.services-section__box:hover{
+    transform: translateY(-2rem);
+    border: 1px solid #A3E0E8;
+    background-image: url('../img/hero-background.png');
+    background-size: contain;
+}
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),

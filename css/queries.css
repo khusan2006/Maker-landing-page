@@ -78,6 +78,11 @@
     .hero-text{
         font-size: 1.9rem;
     }
+
+    /* Services section */
+    .box-title{
+        font-size: 1.7rem;
+    }
 }
 
 
@@ -96,6 +101,17 @@
     }
     .hero-text{
         font-size: 1.6rem;
+    }
+
+    /* Services section */
+    .services-section{
+        padding-top: 7rem;
+    }
+    .box-title{
+        font-size: 1.5rem;
+    }
+    .box-text{
+        font-size: 1.4rem;
     }
     
 }
@@ -132,6 +148,18 @@
     .hero-btn{
         align-self: center;
         width: fit-content;
+    }
+
+      /* Services section */
+    .services-section__boxes{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .box-title{
+        font-size: 2.1rem;
+    }
+    .box-text{
+        font-size: 1.6rem;
     }
 
 }
