@@ -179,7 +179,7 @@
 
 /* Team section */
 .team-section {
-    padding-top: 10rem;
+    padding: 10rem 0;
     display: flex;
 }
 
@@ -189,8 +189,7 @@
     justify-content: center;
     flex: 1;
 }
-.section-title {
-}
+
 .team-section__title {
     margin-bottom: 1rem;
 }
@@ -223,6 +222,50 @@
 .team-section__right img{
     width: 80%;
 }
+
+/* Work section */
+.work-section {
+    padding: 10rem 0;
+    background-image: url('../img/about\ section\ Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.work-section__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.work-section__title {
+    color: var(--white-color)!important;
+    margin-bottom: 2rem;
+}
+
+.work-section__text {
+    width: 75%;
+    margin-top: 0;
+    margin-bottom: 3.5rem;
+    text-align: center;
+    color: var(--white-color)!important;
+}
+.play-btn {
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+    border: none;
+    border-radius: 50%;
+}
+
+.play-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 3rem;
+
+    color: var(--primary-bg-color);
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),

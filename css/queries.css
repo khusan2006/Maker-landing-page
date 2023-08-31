@@ -118,6 +118,12 @@
         font-size: 1.5rem;
         width: 85%;
     }
+
+    /* Work section */
+    .work-section__text{
+        width: 85%;
+        font-size: 1.5rem;
+    }
     
 }
 
@@ -194,6 +200,14 @@
      /* general css */
     html{
         font-size: 40%;
+    }
+
+    /* Work section */
+    .work-section{
+        padding: 8rem 0;
+    }
+    .work-section__text{
+        width: 90%;
     }
 }
 
