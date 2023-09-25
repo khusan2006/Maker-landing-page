@@ -13,7 +13,9 @@
     html{
         font-size: 55%;
     }
-   
+    .box-title{
+        font-size: 1.8rem;
+    }
     /* Header section, need to be refactored */
 
     .navbar-links{
@@ -92,7 +94,9 @@
         font-size: 50%;
     }
 
-
+    .box-title{
+        font-size: 2rem;
+    }
     /* Hero section */
 
     .hero-title{
@@ -123,6 +127,11 @@
     .work-section__text{
         width: 85%;
         font-size: 1.5rem;
+    }
+
+     /* Features section */
+     .features-section_boxes{
+        grid-template-columns: repeat(2, 1fr);
     }
     
 }
@@ -192,6 +201,7 @@
     .team-section__btn{
         align-self: center;
     }
+   
 
 }
 
@@ -208,6 +218,14 @@
     }
     .work-section__text{
         width: 90%;
+    }
+
+    /* Features section */
+    .features-section_boxes{
+        grid-template-columns: 1fr;
+    }
+    .features-box__text{
+        width: 60%;
     }
 }
 
