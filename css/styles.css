@@ -252,6 +252,59 @@
     gap: 3rem;
 }
 
+
+/* Testimonials section */
+.testimonials-section {
+    padding: 9rem 0;
+    background-image: url('../img/Background.png');
+}
+
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testimonials-logo {
+    width: 15rem;
+    height: 3rem;
+}
+.testimonials-text {
+    color: #4B4C4C;
+    text-align: center;
+    font-size: 3.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 4rem 0;
+}
+.testimonials-person {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+.person-img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.person-name {
+    color: #4B4C4C;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 80%;
+    margin-top: 0;
+    margin-bottom: 1.2rem;
+}
+.person-job {
+    color: #707273;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 0;
+}
+
 @media
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (   min--moz-device-pixel-ratio: 2),
