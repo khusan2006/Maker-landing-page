@@ -50,8 +50,8 @@
         height: 5rem;
         display: block;
         position: absolute;
-        right: 3%;
-        top: 4rem;
+        right: 2%;
+        top: 2rem;
     }
     .close-btn{
         display: none;
@@ -161,7 +161,7 @@
         font-size: 45%;
     }
     .responsive-btn{
-        top: 5rem;
+        top: 2.5rem;
         right: 3%;
     }
     /* Hero section */
