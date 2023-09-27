@@ -14,7 +14,7 @@ html{
 .header {
     padding: 2rem 0;
     width: 100%;
-    background-image: url('../img/Background.png');
+    background-image: url('../img/Background.webp');
     transition: all .2s;
 }
 .header.fixed{
@@ -83,7 +83,7 @@ html{
 /* Hero section */
 
 .hero-section {
-    background-image: url('../img/hero-background.png');
+    background-image: url('../img/hero-background.webp');
     background-position: right center;
     padding: 8rem 0;
 }
@@ -200,7 +200,7 @@ html{
 /* Work section */
 .work-section {
     padding: 10rem 0;
-    background-image: url('../img/about\ section\ Background.png');
+    background-image: url('../img/about\ section\ Background.webp');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -256,6 +256,9 @@ html{
     width: 80%;
     margin-bottom: 5rem;
 }
+.features-section__title{
+    margin-bottom: 2rem;
+}
 .features-section_boxes {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -267,7 +270,7 @@ html{
 /* Testimonials section */
 .testimonials-section {
     padding: 9rem 0;
-    background-image: url('../img/Background.png');
+    background-image: url('../img/Background.webp');
 }
 
 .testimonials-container{

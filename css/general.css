@@ -1,11 +1,11 @@
 :root{
-  --primary-bg-color: #35AFBF;
+  --primary-bg-color: #0b9aad;
   --secondary-color: #32A3B2;
   --primary-color: #252626;
   --text-color: #707273;
   --white-color: #ffffff;
 }
-
+/* #35AFBF */
 /* changing styles of scroll */
 * {
   margin: 0;
@@ -146,6 +146,7 @@ html {
   padding: 3rem 2rem 3.5rem 2rem;
   border-radius: 1rem;
   transition: all ease 0.3s;
+  text-align: center;
 }
 
 .box-icon {

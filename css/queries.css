@@ -1,5 +1,5 @@
 :root{
-    --primary-bg-color: #35AFBF;
+    --primary-bg-color: #0b9aad;
     --secondary-color: #32A3B2;
     --primary-color: #252626;
     --text-color: #707273;
@@ -91,7 +91,7 @@
 @media screen and (max-width: 768px) {
      /* general css */
     html{
-        font-size: 50%;
+        font-size: 55%;
     }
 
     .box-title{
@@ -158,7 +158,7 @@
 /* media for phone */
 @media screen and (max-width: 576px) {
     html{
-        font-size: 45%;
+        font-size: 50%;
     }
     .responsive-btn{
         top: 2.5rem;
@@ -227,9 +227,14 @@
 @media screen and (max-width: 450px){
      /* general css */
     html{
-        font-size: 40%;
+        font-size: 50%;
     }
-
+    .section-title{
+        font-size: 3.5rem;
+    }
+    .section-text{
+        width: 90%;
+    }
     /* Work section */
     .work-section{
         padding: 8rem 0;
@@ -250,9 +255,16 @@
 @media screen and (max-width: 400px) {
      /* general css */
     html{
-        font-size: 35%;
+        font-size: 50%;
     }
+    .section-title{
+        font-size: 2.8rem;
+    }
+    /* CTA section */
     .cta-title{
-        font-size: 3.5rem;
+        font-size: 3.2rem;
+    }
+    .footer-pricing{
+        gap: 4rem;
     }
 }
